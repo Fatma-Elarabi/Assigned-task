@@ -1,0 +1,830 @@
+/*:focus {
+  outline: 2px solid #000;*/
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/*.container {
+	width: 120rem;
+	margin: auto;
+}*/
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.all__icons {
+	max-width: 100%;
+	max-height: 100%;
+	/*padding: 1.5rem 1rem;*/
+	height: inherit;
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+header {
+	/*padding: 3rem;*/
+	padding-bottom: 14rem;
+	margin-bottom: 2.4rem;
+	box-shadow: 0 5px #eee;
+	background-color: #f3f8fe;
+}
+
+.header__name {
+	float: left;
+	font-size: 5.3rem;
+	color: #33383e;
+}
+
+span {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #33383e;
+}
+
+.header__day {
+	position: relative;
+	margin-bottom: 0;
+	/*float: right;*/
+	font-size: 6.3rem;
+	color: #dfe4ea
+}
+
+/*.head {
+	display: inline-block;
+}*/
+
+.header__date {
+	/*margin-left: 107rem;*/
+    /*margin-top: 7rem;*/
+    line-height: 0;
+	position: absolute;
+	/*float: right;*/
+	font-size: 2.4rem;
+	font-weight: bold;
+	color: #676c72;
+}
+
+.main__head:after {
+	content: "";
+  	display: block;
+ 	padding: 0.05rem;
+/*  	width: 120rem;*/
+  	margin: 2.4rem 0 3rem 0;
+  	background-color: #bfbfbf;
+}
+
+/*i {
+	float: left;
+}*/
+
+h3 {
+	display: inline-block;
+	/*margin: 0.3rem 0 3rem 1rem;*/
+	margin-left: 1rem;
+	margin-top: 0.3rem;
+	font-size: 4.3rem;
+	color: #62d079;
+}
+
+.main__chart {
+	margin-top: 3rem;
+	/*height: 75rem;*/
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	height: 45rem;
+	border: 0.3rem solid #e4e4e4;
+	border-radius: 1rem;
+	box-shadow: 0 0.8rem 3rem #eaeaea;
+}
+
+.chart__description {
+	    margin: 10rem 0 3rem 0;
+}
+
+.chart__description h4 {
+	font-size: 2.3rem;
+    font-weight: bold;
+    color: #3b3b3b;
+}
+
+.chart__description p {
+	font-size: 1.7rem;
+	color: #454545;
+}
+
+.chart__table {
+	/*width: 17rem;*/
+	padding: 2rem 2rem 0 1rem;
+	border: 0.3rem solid #5bd075;
+	border-left-width: 1.5rem;
+	border-radius: 0.5rem;
+}
+
+.col1 {
+	font-weight: bold;
+}
+
+.chart__table h5 {
+	font-size: 4.5rem;
+	font-weight: bold;
+	line-height: 0;
+}
+
+thead {
+	color: #d66766;
+}
+
+.chart__performance {
+	/*width: 17rem;*/
+	/*height: 28rem;*/
+	margin-top: 1rem;
+	padding: 1rem;
+	text-align: center;
+	border-radius: 0.5rem;
+	background-color: #ffd360;	
+}
+
+.chart__performance h4 {
+	color: #fff;
+}
+
+.chart__performance h4:after {
+	content: "";
+  	display: block;
+ 	padding: 0.05rem;
+  	/*width: 11rem;*/
+  	margin: 0.5rem 2.7rem;
+  	background-color: #fff;
+}
+
+.perform__details {
+	padding-top: 3rem;
+    width: 10rem;
+    height: 10rem;
+	margin-bottom: 1rem;
+	border: 0.5rem solid #fff;
+	border-radius: 50%;
+}
+
+.perform__details p {
+	line-height: 0;
+	font-size: 1.8rem;
+}
+
+.perform__details h5 {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.turn__over {
+	/*width: 17rem;*/
+	padding: 0.5rem;
+	margin-top: 1rem;
+	text-align: center;
+	border-radius: 0.5rem;
+	background-color: #a2c800;
+	color: #fff;
+}
+
+.turn__over h4:after {
+	content: "";
+  	display: block;
+ 	padding: 0.05rem;
+  	/*width: 11rem;*/
+  	margin: 0.5rem 2.7rem;
+  	background-color: #fff;
+}
+
+.turn__over h5 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	line-height: 2rem;
+	color: #000;
+}
+
+.turn__over p {
+	/*padding: 1rem;*/
+	text-align: right;
+	color: #fff;
+}
+
+.view {
+	margin-bottom: 5rem;
+}
+
+.view h4 {
+	/*padding-left: 0;*/
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+	padding-left: 0;
+}
+
+.pie__chart {
+	height: 45rem;
+	border: 0.3rem solid #e4e4e4;
+	border-radius: 1rem;
+	box-shadow: 0 0.8rem 3rem #eaeaea;
+}
+
+.diff__row {
+	margin: 3rem 0;
+	padding: 5rem 0;
+	background-color: #f7faff;
+}
+
+.peers_performance img {
+	width: 100%;
+	height: 33rem;
+}
+
+.stock__part h4 {
+	margin: 0 0 2rem 0;
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #3f3f3f;
+}
+
+.progress {
+	height: 3.5rem;
+	border-radius: 1rem;
+}
+
+.progress-bar {
+	background: linear-gradient(to right, #eb7979 , #70e2fd , #4fc662);
+}
+
+.meter__degrees p {
+	line-height: 0;
+	font-weight: bold;
+}
+
+.meter__degree1 {
+	text-align: left;
+	color: #eb7979; 
+}
+
+.meter__degree2 {
+	text-align: center;
+	color: #70e2fd;
+}
+
+.meter__degree3 {
+	text-align: right;
+	color: #4fc662;
+}
+
+.perform__meter:after {
+	content: "";
+  	display: block;
+ 	padding: 0.05rem;
+/*  	width: 120rem;*/
+  	margin: 9.5rem 0 1rem 0;
+  	background-color: #bfbfbf;
+}
+
+.stock__data1 {
+	border: 0.1rem solid #e3ece7;
+	/*margin-right: 0.3rem;*/
+	border-radius: 0.5rem;
+	color: #fff;
+	background-color: #5bd075; 
+}
+
+.stock__data1 h5 {
+	padding: 0 0 0 2rem;
+	font-size: 4.5rem;
+	font-weight: bold;
+}
+
+.stock__data1 h6 {
+	padding: 0 0 0 1rem;
+	font-size: 2rem;
+}
+
+.stock__data1 p {
+	padding: 0.7rem 1rem;
+	font-weight: bold;
+	color: #1d1b42;
+	background-color: #fff;
+}
+
+.small--stock__data1 {
+	padding: 1.8rem 0 0 0;
+}
+
+.small--stock__data1 h5 {
+	margin-bottom: 4rem;
+	font-size: 3rem;
+}
+
+.small--stock__data1 p {
+	color: #727272;
+}
+
+.stock__table {
+	position: relative;
+	background-color: rgba(255,255,255,.5);
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 2;
+	/*position: absolute;
+    top: 50%;
+    left: 50%;*/
+	margin-top: 3rem;
+	margin-right: 1rem;
+	margin-bottom: 3rem;
+	padding: 0rem 20rem 0 2rem;
+	border-radius: 1rem;
+	/*background-color: transparent;*/
+}
+
+.stock__icons {
+	position: absolute;
+	margin-top: 6rem;
+}
+
+.stock__table .col1 {
+	padding-top: 1.7rem;
+	font-size: 1.7rem;
+	color: #2c2f34;
+}
+
+.stock__table .col2 {
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.stock__table--up {
+	color: #55d870;
+}
+
+.stock__table--down {
+	color: #ff6c70;
+}
+
+.borderless td {
+	border-top: none !important;
+}
+
+.table-striped th,
+.table-striped td {
+	line-height: 5rem !important;
+	text-align: center;
+	border: none !important;
+}
+
+.table-striped thead {
+	background-color: #5bd075;
+	color: #fff;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td {
+	background-color: #fff;
+}
+
+.table-striped > tbody > tr:nth-child(2n) > td {
+	background-color: #eaeff5;
+}
+
+.focus__info {
+	font-weight: bold;
+}
+
+/*.last__row .main__head:after {
+	content: "";
+  	display: block;
+ 	padding: 0.05rem;
+  	margin: 2rem 0 1rem 0;
+  	background-color: #bfbfbf;
+}*/
+
+.investor h4 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #373938;
+}
+
+.investor__type__box {
+	padding: 0;
+	border: 0.15rem solid #ddd;
+	border-radius: 0.3rem;
+}
+
+.buyer__type__head {
+	background-color: #5bd075;
+}
+
+.seller__type__head {
+	background-color: #f86e6c;
+}
+
+.investor__type img {
+	max-width: 100%;
+	max-height: 100%;
+	padding: 1.5rem 1rem;
+	height: inherit;
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.investor__type h5 {
+	font-size: 3.5rem;
+	font-weight: bold;
+	color: #fff;
+}
+
+.investor__type__body {
+	margin-top: 6rem;
+    margin-bottom: 2.3rem;
+    text-align: center;
+    /*width: 19rem;*/
+    height: 20rem;
+	border-radius: 50%;
+}
+
+.buyer--type--body {
+	border: 0.7rem solid #daffdd;
+	background-color: #5bd075;
+}
+
+.seller--type--body {
+	border: 0.7rem solid #fec9c5;
+	background-color: #f86e6c;
+}
+
+.investor__type__body p {
+	padding-top: 2rem;
+	margin-bottom: 0;
+    font-size: 1.8rem;
+	color: #fff;
+}
+
+.investor__type__body img {
+	/*width: 9rem;*/
+    height: 7rem;
+	/*padding: 0 5rem 13rem 5rem;*/
+}
+
+/*.investor__type__body h5 {
+	margin-top: 0;
+	padding: 0 5rem 13rem 4rem;
+}*/
+
+.investor__num h6 {
+	text-align: center;
+	font-size: 4rem;
+	font-weight: bold;
+	color: #545454;
+}
+
+.investor__num p {
+	margin-bottom: 3rem;
+	font-size: 1.7rem;
+	line-height: 0;
+	color: #545454;
+}
+
+.nationality__body {
+	margin: 7rem 5rem 0 4.5rem;
+}
+
+.seller__nationality__body {
+	/*margin-top: 10rem;*/
+	/*margin: 7rem 5rem 0 4.5rem;*/
+    text-align: center;
+    /*width: 11rem;*/
+    /*height: 11rem;*/
+    border-radius: 50%;
+}
+
+.seller__nationality__body p {
+	padding-top: 2rem;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    line-height: 0;
+    color: #fff;
+}
+
+.seller__nationality__body img {
+	width: 5rem;
+    height: 6rem;
+}
+
+.seller__nationality__body h5 {
+	margin-top: 0;
+	font-size: 1.5rem;
+}
+
+.nationality__num h6 {
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: bold;
+    color: #545454;
+}
+
+.nationality__num p {
+	margin-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 0;
+    color: #545454;
+}
+
+.nationality__body:after {
+	content: "";
+  	display: block;
+ 	padding: 0.05rem;
+  	width: 18rem;
+  	margin: 0 0 1rem -2rem;
+  	background-color: #bfbfbf;
+}
+
+.nationality__arabs {
+	margin-left: 6rem;
+}
+
+/*@media only screen and (min-width:576px) {
+
+	.container {
+		width: 50rem;
+		margin: auto;
+	}
+
+	.header__name {
+		font-size: 3rem;
+	}
+
+	.header__day {
+		font-size: 4rem;
+	}
+
+	.header__date {
+		font-size: 1.7rem;
+	}
+
+	h3 {
+		font-size: 3rem;
+	}
+
+	.chart__performance {
+		margin-top: 0;
+	}
+
+	.chart__table h5 {
+		text-align: center;
+		font-size: 3.5rem;
+	}
+
+	.view img {
+		margin-bottom: 1rem;
+	}
+
+	.peers_performance img {
+		margin: 2rem 0 2rem 0;
+	}
+
+	.stock__data1 h5 {
+		font-size: 3.5rem;
+		font-weight: bold;
+	}
+
+	.stock__data1 h6 {
+		font-size: 1.5rem;
+	}
+
+	.stock__data1 p {
+		font-size: 1rem;
+	}
+
+	.small--stock__data1 {
+		padding: 2.7rem 0 0 0;
+	}
+
+	.small--stock__data1 h5 {
+		font-size: 2rem;
+	}
+
+	.stock__icons {
+		position: relative;
+	}
+
+	.hide__responsive {
+		display: none;
+	}
+
+	.buyer__type__head,
+	.seller__type__head {
+		padding-bottom: 5rem;
+	}
+
+	.investor__type h5 {
+		font-size: 2rem;
+	}
+
+	.investor__type img {
+		max-width: 100%;
+		max-height: 100%;
+		padding: 1rem 1rem;
+	}
+
+	.investor__type__body {
+		margin-top: 5rem;
+	    margin-bottom: 1rem;
+	    text-align: center;
+	}
+
+	.investor__type__body {
+	    height: 15rem;
+	}
+
+	.investor__type__body p {
+		padding-top: 1.2rem;
+	    font-size: 1.4rem;
+	}
+
+	.investor__num h6 {
+		font-size: 3rem;
+	}
+
+	.investor__num p {
+		font-size: 1.2rem;
+	}
+
+	.nationality__body {
+		margin: 0;
+	}
+
+	.seller__nationality__body {
+		margin-bottom: 1rem;
+	}
+
+	.nationality__body:after {
+	  	width: 15rem;
+	  	margin: 0 0 1rem 2rem;
+	}
+
+	.nationality__num h6 {
+		font-size: 1.7rem;
+	}
+
+	.nationality__arabs {
+		margin-left: 4.5rem;
+	}
+}*/
+
+@media only screen and (max-width:576px) {
+
+	/*.container {
+		width: 50rem;
+		margin: auto;
+	}*/
+
+	header {
+		padding-bottom: 8rem;
+	}
+
+	.header__name {
+		font-size: 2rem;
+	}
+
+	.header__day {
+		font-size: 3rem;
+	}
+
+	.header__date {
+		font-size: 1.5rem;
+	}
+
+	h3 {
+		margin-left: 0;
+		font-size: 2rem;
+	}
+
+	.main__head:after {
+		margin-top: 0;
+	}
+
+	/*.chart__performance {
+		margin-top: 0;
+	}*/
+
+	.chart__table h5 {
+		text-align: center;
+		font-size: 3.5rem;
+	}
+
+	.view img {
+		margin-bottom: 1rem;
+	}
+
+	.peers_performance img {
+		margin: 2rem 0 2rem 0;
+	}
+
+	.stock__data1 h5 {
+		/*padding: 0 0 0 2rem;
+*/		font-size: 3.5rem;
+		font-weight: bold;
+	}
+
+	.stock__data1 h6 {
+		/*padding: 0 0 0 2rem;*/
+		font-size: 1.5rem;
+	}
+
+	.stock__data1 p {
+		font-size: 1rem;
+	}
+
+	.small--stock__data1 {
+		padding: 2.7rem 0 0 0;
+	}
+
+	.small--stock__data1 h5 {
+		font-size: 2rem;
+	}
+
+	.stock__icons {
+		position: relative;
+	}
+
+	.hide__responsive {
+		display: none;
+	}
+
+	.buyer__type__head,
+	.seller__type__head {
+		padding-bottom: 5rem;
+	}
+
+	.investor__type h5 {
+		font-size: 2rem;
+	}
+
+	.investor__type img {
+		max-width: 100%;
+		max-height: 100%;
+		padding: 1rem 1rem;
+	}
+
+	.investor__type__body {
+		margin-top: 5rem;
+	    margin-bottom: 1rem;
+	    text-align: center;
+	}
+
+	.investor__type__body {
+	    height: 15rem;
+	}
+
+	.investor__type__body p {
+		padding-top: 1.2rem;
+	    font-size: 1.4rem;
+	}
+
+	.investor__num h6 {
+		font-size: 3rem;
+	}
+
+	.investor__num p {
+		font-size: 1.2rem;
+	}
+
+	.nationality__body {
+		margin: 0;
+	}
+
+	.seller__nationality__body {
+		margin-bottom: 1rem;
+	}
+
+	.nationality__body:after {
+	  	width: 15rem;
+	  	margin: 0 0 1rem 2rem;
+	}
+
+	.nationality__num h6 {
+		font-size: 1.7rem;
+	}
+
+	.nationality__arabs {
+		margin-left: 4.5rem;
+	}
+}
